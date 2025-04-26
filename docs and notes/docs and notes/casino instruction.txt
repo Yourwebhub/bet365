@@ -1,0 +1,4 @@
+1) import all sql files from app/plugin/Casino/Config/Schema (import Schema.sql first) into DB
+2) upload via FTP app/plugin/Casino/ folder (or replace)
+3) upload via FTP app/View/Themed/Design/Layouts/casino.ctp
+4) generate ACL (view permissions). enter link into browser DOMAIN/LANGUAGE/admin/acl/acos/synchronize/run (replace DOMAIN and LANGUAGE with corresponding values)
